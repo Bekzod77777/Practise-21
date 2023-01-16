@@ -131,13 +131,134 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 140px;
   margin-top: 20px;
   border: 1px solid #ebebeb;
 }
 .section-bottom h3 {
   padding: 10px 0;
   padding-right: 10px;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.diplom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.diplom .diplom-left a {
+  text-decoration: none;
+}
+.diplom .diplom-left h1 {
+  padding-bottom: 27px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 51px;
+  color: #000000;
+}
+.diplom .diplom-left p {
+  padding-bottom: 39px;
+  max-width: 511px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+  color: #000000;
+}
+.diplom .diplom-left ul {
+  display: flex;
+  padding-bottom: 14px;
+}
+.diplom .diplom-left ul li {
+  list-style-type: none;
+  padding-right: 120px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 32px;
+  color: #A8A8A8;
+}
+.diplom .diplom-left ul li:hover {
+  color: #000000;
+  transition: 0.5s;
+}
+.diplom .diplom-left .line {
+  width: 592px;
+  border-bottom: 1px solid #DFDFDE;
+}
+
+.student-top h1 {
+  padding-bottom: 50px;
+  width: 420px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 51px;
+  color: #000000;
+}
+
+.student-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 32px;
+}
+.student-cards .student-card {
+  background: linear-gradient(180deg, #e5e5e5 61.47%, rgba(245, 245, 245, 0) 97.2%);
+}
+.student-cards p {
+  max-width: 409px;
+  padding: 33px 40px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.social-medias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.social-medias .social-media-titles {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.social-medias .social-media-titles img {
+  padding-right: 14px;
+}
+.social-medias .social-media-titles h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.social-medias .social-media-titles p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 22px;
+  color: #787878;
+}
+.social-medias .social-media-btn {
+  margin-left: 100px;
+  width: 180px;
+}
+.social-medias .social-media-btn p {
+  padding: 5px 10px;
+  border: 1px solid #EBEBEB;
+  font-style: normal;
   font-weight: 700;
   font-size: 11px;
   line-height: 22px;

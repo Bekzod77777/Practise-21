@@ -133,7 +133,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 140px;
   margin-top: 20px;
   border: 1px solid #ebebeb;
   h3 {
@@ -147,3 +147,130 @@
     color: #000000;
   }
 }
+
+.diplom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  .diplom-left {
+    a {
+      text-decoration: none;
+    }
+    h1 {
+      padding-bottom: 27px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 51px;
+      color: #000000;
+    }
+    p {
+      padding-bottom: 39px;
+      max-width: 511px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 40px;
+      color: #000000;
+    }
+    ul {
+      display: flex; 
+      padding-bottom: 14px; 
+      li {
+        list-style-type: none;
+        padding-right: 120px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 32px;
+        color: #A8A8A8;
+      }
+      li:hover {
+        color: #000000;
+        transition: 0.5s;
+      }
+    }
+    .line {
+      width: 592px;
+      border-bottom: 1px solid #DFDFDE;
+    }
+  }
+}
+
+.student-top {
+  h1 {
+    padding-bottom: 50px;
+    width: 420px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 51px;
+    color: #000000;
+  }
+}
+
+.student-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 32px;
+  .student-card {
+    background: linear-gradient(180deg, #e5e5e5 61.47%, rgba(245, 245, 245, 0) 97.2%);
+  }
+  p {
+    max-width: 409px;
+    padding: 33px 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+  }
+}
+
+.social-medias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  .social-media-titles {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    img {
+      padding-right: 14px;
+    }
+    h3 {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 22px;
+      color: #787878;
+    }
+  }
+  .social-media-btn {
+    margin-left: 100px;
+    width: 180px;
+    p {
+      padding: 5px 10px;
+      border: 1px solid #EBEBEB;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 11px;
+      line-height: 22px;
+      letter-spacing: 0.17em;
+      text-transform: uppercase;
+      color: #000000;
+    }
+  }
+}
+
+
